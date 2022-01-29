@@ -10,3 +10,5 @@ it.only('Using Get find and EQ', () => {
     cy.visit("https://next.privat24.ua/deposit")
     cy.get("tbody").find('td').find('button').eq(0)
 });
+
+//test
